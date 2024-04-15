@@ -1,0 +1,201 @@
+/* body start */
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* padding:  0 100px; */
+}
+/* body end  */
+/* cootainer start  */
+.container {
+    padding: 5.625em 1.25em 0 ;
+    position: relative;
+    background: #f9f9f9;
+    height: 300px;
+    width: 37.5em;
+    border-radius: 20px;
+    box-shadow: 17px 17px 8px #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* container end  */
+/* logo start  */
+.logo {
+    width: 100%;
+    height: 3.125em;
+    position: relative;
+    margin-top: 4.375em;
+    top: -9.375em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo .span {
+    position : absolute;
+    width: 100%;
+    height: 2px;
+    top:  40px;
+    background-color: #e0e0e0;
+    z-index: 1;
+}
+.logo_logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    justify-content: center;
+    align-self: center;
+    z-index: 10;
+}
+
+.logo_logo img {
+    position: absolute;
+    top: -50px;
+    width: 250px;
+    height: 130px;
+    transform: rotate(3deg);
+    /* width: 13.75em; */
+}
+/* logo end  */
+/* log start  */
+.log_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: 100%;
+    position: relative;
+    top: -3.125em;
+    height: 6.25em;
+}
+.log {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    /* margin-bottom: px; */
+}
+.user-name {
+    margin-bottom: 0.625em;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.password_place {
+    margin-left: 2.1875em;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+label {
+    font-size: 1.2rem;
+    margin-right: 0.625em;
+    color: #656565;
+}
+.log input {
+    border-radius: 9px;
+    padding-left: 0.625em;
+    border-color: #e7e7e7;
+    box-shadow: 5px 5px 8px #d7d7d7;
+    font-size: 1.2rem;
+    margin-right: 0.625em;
+}
+.log_buttons {
+    margin-left: 9.375em;
+    margin-top: 1.5625em;
+    width: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log_buttons button {
+    box-shadow: 3px 3px 8px #0f0f0f;;
+    margin-right: 0.625em;
+    font-size: 0.9375em;
+    padding: 0.625em;
+    width: 9.375em;
+    height: 1.875em;
+    display: flex;
+    border-radius: 0.625em;
+    align-items: center;
+    justify-content: center;
+    padding: 0.625em;
+    color: #fff;
+    background-color: #525252;
+}
+/* log end  */
+/* media start  */
+/* Media Queries */
+
+/* Media Queries */
+
+
+
+
+@media  (max-width: 480px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        overflow-y: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        padding-top: 10px;
+        width: 400px;
+    }
+    .user-name {
+        margin-bottom: .5em;
+    }
+    .password_place {
+        margin-left: .5em;
+    }
+    label {
+        font-size: 5px;
+        /* margin-right: 0.625em; */
+    }
+    .log input {
+        padding-left: 1px;
+        border-color: #e7e7e7;
+        box-shadow: 5px 5px 8px #d7d7d7;
+        font-size: 0.7rem;
+        /* margin-right: 0.625em; */
+    }
+    .password_place {
+        margin-left: 25px;
+    }
+    .log_buttons {
+        margin-left: 100px;
+        width: 0.3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .log_buttons button {
+        box-shadow: 3px 3px 8px #0f0f0f;;
+        font-size: 0.9em;
+        padding: 0.625em;
+        width: 7em;
+        height: 1em;
+}
+.logo_logo img {
+    width: 200px;
+    top: -30px;
+    height: 110px;
+}
+}
+/* media end   */
